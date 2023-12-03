@@ -11,7 +11,7 @@ app.use(accesHttpMiddleware);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(cors(process.env.CORS_DOMAINS) ?? 'localhost');
+app.use(cors(process.env.CORS_DOMAINS) || 'localhost');
 
 app.use(router);
 
