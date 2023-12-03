@@ -1,0 +1,45 @@
+{
+  "name": "tardis-project-back",
+  "version": "1.0.0",
+  "description": "API back RestFull",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node .",
+    "dev": "npx nodemon",
+    "db:deploy": "sqitch deploy;"
+  },
+  "keywords": [
+    "API",
+    "RestFull",
+    "NodeJS",
+    "Express",
+    "PostgreSQL",
+    "Swagger",
+    "JWT",
+    "Bcrypt",
+    "Joi",
+    "Winston"
+  ],
+  "author": "Kevin Bournique & Thomas Pijat",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "pg": "^8.11.3",
+    "swagger-autogen": "^2.23.5",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
