@@ -2,3 +2,5 @@
 %project=tardis_db
 
 initDb 2023-12-03T10:54:55Z Kevin,,, <kevin@kevin-VirtualBox> # initialisation base de données
+seedDb 2024-02-11T11:16:17Z Kevin,,, <kevin@kevin-VirtualBox> # seed de la base de donnée
+onDeleteCascade 2024-02-11T11:35:57Z Kevin,,, <kevin@kevin-VirtualBox> # permet de ne pas violer les clés étrangères
